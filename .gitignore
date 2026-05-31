@@ -1,0 +1,27 @@
+# Build
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.su
+*.cmd
+
+# IDE
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+*.mxproject
+Debug/
+Release/
+*.jlink
+*.launch
+.mxproject
+
+# CMSIS / Drivers (they're in the repo, don't ignore)
+
+# OS
+Thumbs.db
+.DS_Store
